@@ -13,7 +13,7 @@ public class Reponse {
 	public static void formaterReponse(List<Object> reponsesExercice) {
 		int numeroExercice = 1;
 		for (Object reponse : reponsesExercice) {
-			System.out.println("Ex n°" + numeroExercice + ". " + reponse.toString());
+			System.out.println("Ex n°" + numeroExercice + " : " + reponse.toString());
 			numeroExercice++;
 		}
 	}
